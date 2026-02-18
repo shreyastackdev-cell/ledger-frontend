@@ -2,6 +2,7 @@
  * Format a number as Indian Rupee currency
  * @param {number} amount
  * @returns {string} e.g. "₹1,000.00"
+ * 
  */
 export const formatCurrency = (amount) => {
     if (amount == null || isNaN(amount)) return '₹0.00';
